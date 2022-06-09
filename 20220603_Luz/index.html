@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+        <title>Conversor de velocidade da luz</title>
+    </head>
+
+    <body>
+        <div class="topo">
+            <label>Conversor de distância - Anos-luz em Km <br></label>      
+        </div>
+
+        <section class="conversao">
+            <div>
+                <p id="insira">
+                    Insira a distância, em Ano-Luz, entre dois corpos celestes:
+                </p>
+
+                <p id="exemplos">
+                    Exemplo: <br>
+                    Número inteiro ➝ 2 <br>
+                    Número decimal ➝ 2.4 ou 2,4 <br>
+                    Notação científica ➝ 2.42e+9
+                </p>
+            </div>
+
+            <div class="input">
+                <input type="number" id="valorInput" size="10" value="0">
+                <label id="unidAL">Ano-Luz</label>
+                <button id="botao" onclick="main()">Converter</button>
+                <input type="number" id="valorConvertido" size="2" value="0">
+                <label id="unidKm">Km</label>
+            </div>
+        </section>
+        
+        <section class="imagem">
+            <h2 id="imagem"></h2>
+            <label id="sobre"></label>
+            <p id="explicacao"></p>
+            <p id="copyrigth"></p>
+        </section>
+
+    </body>
+
+    <footer>
+        <hr>
+        <label id="criador">By MarcusVieira<br></label>
+        <a href="https://github.com/MarcusVieira01" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/marcusv.m.vieira/" target="_blank">Instagram</a><br>
+    </footer>
+
+</html>
